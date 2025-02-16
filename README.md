@@ -10,11 +10,16 @@ Open an SSH session for opnsense and clone the repo.
 git clone https://github.com/cubt85iz/opnsense-healthcheck-action.git
 ```
 
-Navigate to the directory and install the script.
+Execute `su` and switch to shell for root user. Navigate to the directory and install the script.
 
 ```sh
-su
 make install
+```
+
+Restart configd to refresh available actions in Web UI
+
+```sh
+service configd restart
 ```
 
 ## Removal
