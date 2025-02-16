@@ -27,4 +27,4 @@ make clean
 
 ## Usage
 
-Navigate to `System > Settings > Cron` and create a new cron job specifying `Ping a healthcheck url` for the command and `--healthcheck=<url>` as parameters.
+Navigate to `System > Settings > Cron` and create a new cron job specifying `Ping a healthcheck url` for the command and `<url>` as a parameter.
